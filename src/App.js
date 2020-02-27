@@ -7,6 +7,7 @@ import Home from './pages/home';
 import Portfolio from './pages/portfolio';
 import AboutMe from './pages/aboutMe';
 import Resume from './pages/resume';
+import Contact from './pages/contact';
 
 function App() {
   return (
@@ -16,8 +17,9 @@ function App() {
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/portfolio" component={Portfolio} />
-          <Route exact path="/aboutme" component={AboutMe} />
+          <Route exact path="/aboutMe" component={AboutMe} />
           <Route exact path="/resume" component={Resume} />
+          <Route exact path="/contact" component={Contact} />
         </Switch>
       </div>
     </Router>
