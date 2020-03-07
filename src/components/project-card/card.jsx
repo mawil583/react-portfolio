@@ -7,7 +7,6 @@ const ProjectCard = (props) => {
             <Row className='mt-3'>
                 <CardDeck>
 
-
                 {props.projectInfo.map(project => (
                     
                         <Card key={project.projectTitle} style={{ width: '18rem' }}>
@@ -22,8 +21,8 @@ const ProjectCard = (props) => {
                                 </Card.Text>
                             </Card.Body>
                             <Card.Footer>
-                                <Button className='btn-block' variant="primary">Deployed</Button>
-                                <Button className='btn-block' variant="primary">GitHub</Button>
+                                <Button href={project.deployedUrl} target="_blank" className='btn-block' variant="primary">Deployed</Button>
+                                <Button href={project.githubUrl} target="_blank" className='btn-block' variant="primary">GitHub</Button>
 
                             </Card.Footer>
                         </Card>

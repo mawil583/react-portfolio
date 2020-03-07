@@ -10,9 +10,11 @@ class Portfolio extends Component {
                 <Tabs className='justify-content-center' defaultActiveKey={tabNames[0]} >
                     {tabNames.map(tabName => (
                         <Tab eventKey={tabName} title={tabName} key={tabNames} >
-                            <ProjectCard projectInfo={projectInfo.filter(project => (
-                                project.technologies.includes(tabName)
-                            ))} />
+                            <ProjectCard 
+                                projectInfo={projectInfo.filter(project => (
+                                    project.technologies.includes(tabName)
+                            ))} 
+                            />
                         </Tab>
                     ))}
                 </Tabs>

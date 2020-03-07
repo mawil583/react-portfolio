@@ -16,20 +16,20 @@ const projectInfo = [
     {
         projectTitle: "EventWeather",
         imageUrl: "./assets/eventweather.png",
-        githubUrl: "",
-        deployedUrl: "",
+        githubUrl: "https://github.com/mawil583/Project-1",
+        deployedUrl: "https://mawil583.github.io/Project-1/",
         technologies: ["jQuery", "Node.js"]
     },
     {
         projectTitle: "Train Scheduler",
         imageUrl: "./assets/train_scheduler.png",
-        githubUrl: "",
-        deployedUrl: "",
+        githubUrl: "https://github.com/mawil583/Train-Scheduler",
+        deployedUrl: "https://mawil583.github.io/Train-Scheduler/",
         technologies: ["jQuery"]
     }
 ];
 
-// makes an "All" tab for all projects by adding 
+// prepends an "All" tab for all projects by adding 
 // it to the beginning of technologies array
 projectInfo.map(project => (
     project.technologies.unshift("All")
