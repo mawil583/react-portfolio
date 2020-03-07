@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Resume from '../assets/resume_full-stack.pdf'
+import Resume from '../assets/resume_full-stack.pdf';
 
 class Home extends Component {
     render() {
