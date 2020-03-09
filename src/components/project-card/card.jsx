@@ -9,15 +9,16 @@ const ProjectCard = (props) => {
 
                 {props.projectInfo.map(project => (
                     
-                        <Card key={project.projectTitle} style={{ width: '18rem' }}>
-                            <Card.Img variant="top" src={project.imageUrl} />
+                        <Card className="shadow" key={project.projectTitle} style={{ width: '18rem' }}>
+                            <a rel="noopener noreferrer" target="_blank" href={project.deployedUrl}>
+                                <Card.Img variant="top" src={project.imageUrl} />
+                            </a>
                             <Card.Body>
 
                                 <Card.Title>{project.projectTitle}</Card.Title>
 
                                 <Card.Text>
-                                    Some quick example text to build on the card title and make up the bulk of
-                                    the card's content.
+                                    {project.summary}
                                 </Card.Text>
                             </Card.Body>
                             <Card.Footer>
