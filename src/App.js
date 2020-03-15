@@ -11,8 +11,8 @@ import Contact from './pages/contact';
 
 function App() {
   return (
-    <Router>
-      <div className="App">
+    <div className="App">
+      <Router>
         <Navbar />
         <Switch>
           <Route exact path="/" component={Home} />
@@ -21,8 +21,8 @@ function App() {
           <Route exact path="/resume" component={Resume} />
           <Route exact path="/contact" component={Contact} />
         </Switch>
-      </div>
-    </Router>
+      </Router>
+    </div>
 
   );
 }

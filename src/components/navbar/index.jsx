@@ -14,7 +14,7 @@ const NavBar = () => {
                     </Nav>
                     <Nav>
                         <Nav.Link as={Link} to="/">Home</Nav.Link>
-                        <Nav.Link as={Link} to="/aboutMe">About</Nav.Link>
+                        {/* <Nav.Link as={Link} to="/aboutMe">About</Nav.Link> */}
                         <Nav.Link as={Link} to="/Portfolio">Portfolio</Nav.Link>
                         <Nav.Link target="_blank" href={Resume}>Resume</Nav.Link>
                         <Nav.Link as={Link} to="/contact">Contact</Nav.Link>

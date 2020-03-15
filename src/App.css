@@ -1,25 +1,100 @@
-.body, .gradient {
+.home-top {
   background: #8360c3 !important;
   /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #2ebf91, #8360c3) !important;
   /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #2ebf91, #8360c3) !important;
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  margin-bottom: 2em;
+  /* margin-bottom: 2em; */
+  /* height: 100vh !important; */
+  text-align: center;
+  padding-bottom: 5em;
+}
+.addPadding {
+  padding-top: 8em;
+  padding-bottom: 6em;
+}
+
+.aboutMeImage {
+  max-width: 100%;
+  text-align: center; 
+  /* padding-top: 8em; */
+  padding-bottom: 2em;
+  border-radius: 25%;
+  
+};
+
+#centerMe {
+  /* text-align: center; */
+  font-family: 'Anton', sans-serif;
+  margin-bottom: 1em;
+  font-weight: bold;
+}
+
+.addPadding p {
+  font-size: 1em;
+}
+
+
+#home-avatar {
+  width: 20%;
 }
 
 .shadow {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
 }
 
-.landing-grid {
-  /* position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%; */
+.column {
+  justify-content: center;
   text-align: center;
-  margin-bottom: 2em;
+  margin-top: 3em;
+}
+
+.column h2 {
+  font-family: 'Anton', sans-serif;
+  margin-bottom: 1em;
+}
+
+.column p {
+  font-family: 'Oxygen', sans-serif;
+  font-weight: bold;
+}
+
+.contact-me {
+  text-align: start;
+  font-family: 'Anton', sans-serif;
+  font-size: x-large;
+  color: black;
+}
+
+.contact-me a {
+  color: black !important;
+}
+
+.contact-me i {
+  font-size: 2.5rem;
+  padding-right: 1.5rem;
+  color: black;
+}
+.contact-item {
+  line-height: 20px;
+}
+
+
+.column hr {
+  border-top: 5px dotted black;
+  width: 50%;
+  margin: auto;
+  margin-bottom: 3em;
+}
+
+.contact-avatar {
+  height: 250px;
+}
+
+.contactP {
+  margin: auto;
+  padding-top: 1em;
 }
 
 
