@@ -24,17 +24,26 @@ class Home extends Component {
                     </h1>
                                     <hr />
                                     <p>HTML5 | CSS3 | Bootstrap | JavaScript | jQuery | React | Node.js | Express | SQL | MongoDB</p>
-                                    <div className="social-links">
-                                        <a href="https://www.linkedin.com/in/michael-williams-1b0a1535/" rel="noopener noreferrer" target="_blank">
-                                            <i className="fa fa-linkedin-square" aria-hidden="true" />
-                                        </a>
-                                        <a href="https://github.com/mawil583" rel="noopener noreferrer" target="_blank">
-                                            <i className="fa fa-github-square" aria-hidden="true" />
-                                        </a>
-                                        <a href={Resume} rel="noopener noreferrer" target="_blank">
-                                            <i className="fa fa-file" id="resume-icon" aria-hidden="true" />
-                                        </a>
-                                    </div>
+                                    <Container fluid>
+                                        <Row>
+                                            <div className="social-links">
+                                                <Col >
+                                                    <a href="https://www.linkedin.com/in/michael-williams-1b0a1535/" rel="noopener noreferrer" target="_blank">
+                                                        <i className="fa fa-linkedin-square fa-fw" aria-hidden="true" />
+                                                    </a>
+                                                    <a href="https://github.com/mawil583" rel="noopener noreferrer" target="_blank">
+                                                        <i className="fa fa-github-square fa-fw" aria-hidden="true" />
+                                                    </a>
+                                                
+                                                    <a href={Resume} rel="noopener noreferrer" target="_blank">
+                                                        <i className="fa fa-external-link-square fa-fw" aria-hidden="true" />
+                                                    </a>
+                                                </Col>
+                                                
+
+                                            </div>
+                                        </Row>
+                                    </Container>
                                 </div>
                             </Col>
                         </Row>
