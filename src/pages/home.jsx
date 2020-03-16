@@ -54,13 +54,12 @@ class Home extends Component {
                     <Container>
                         <Row className="d-flex flex-wrap align-items-center">
 
-                            <Col xl={4} lg={4} md={4} sm={12} className="pt-lg-5 pt-xl-3 pt-md-5 align-text-bottom" >
-                                <span className="align-bottom">
-
+                            <Col xl={4} lg={5} md={6} sm={12} className="pt-lg-5 pt-xl-3 pt-md-5 align-text-bottom" >
+                                <span className="align-bottom d-flex justify-content-center">
                                     <img className="aboutMeImage align-text-bottom" src={LinkedInPhoto} alt="LinkedIn" />
                                 </span>
                             </Col>
-                            <Col xl={8} lg={8} md={8} sm={12}>
+                            <Col xl={8} lg={7} md={6} sm={12}>
 
                                 <div className="aboutMeImage">
                                     <h2 id="centerMe">About Me</h2>

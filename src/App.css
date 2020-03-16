@@ -11,12 +11,13 @@
   padding-bottom: 5em;
 }
 .addPadding {
-  padding-top: 8em;
+  padding-top: 6em;
   padding-bottom: 6em;
 }
 
 .aboutMeImage {
   max-width: 100%;
+  margin: auto;
   text-align: center; 
   /* padding-top: 8em; */
   padding-bottom: 2em;
@@ -38,6 +39,7 @@
 
 #home-avatar {
   width: 20%;
+  margin: 3%;
 }
 
 .shadow {
@@ -65,6 +67,7 @@
   font-family: 'Anton', sans-serif;
   font-size: x-large;
   color: black;
+  padding-bottom: 3em;
 }
 
 .contact-me a {
@@ -155,8 +158,30 @@
 
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 720px) {
+  .aboutMeImage {
+    max-width: 75%;
+  };
+}
+
+@media only screen and (max-width: 540px) {
   .social-links a {
     font-size: 2vw !important;
   }
+  #home-avatar {
+    width: 40% !important;
+  }
+  .aboutMeImage {
+    max-width: 60%;
+  };
+}
+@media only screen and (max-width: 900px) and (max-width:960px) {
+  .aboutMeImage {
+    max-width: 75%;
+  };
+}
+@media only screen and (max-width: 960px) and (max-width:1126px) {
+  .aboutMeImage {
+    max-width: 100%;
+  };
 }

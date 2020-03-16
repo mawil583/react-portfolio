@@ -12,12 +12,12 @@ const NavBar = () => {
                     <Nav className="mr-auto">
                         
                     </Nav>
-                    <Nav>
-                        <Nav.Link as={Link} to="/">Home</Nav.Link>
+                    <Nav className="ml-auto justify-content-end">
+                        <Nav.Link className="ml-auto" as={Link} to="/">Home</Nav.Link>
                         {/* <Nav.Link as={Link} to="/aboutMe">About</Nav.Link> */}
-                        <Nav.Link as={Link} to="/Portfolio">Portfolio</Nav.Link>
-                        <Nav.Link target="_blank" href={Resume}>Resume</Nav.Link>
-                        <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
+                        <Nav.Link className="ml-auto" as={Link} to="/Portfolio">Portfolio</Nav.Link>
+                        <Nav.Link className="ml-auto" target="_blank" href={Resume}>Resume</Nav.Link>
+                        <Nav.Link className="ml-auto" as={Link} to="/contact">Contact</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
