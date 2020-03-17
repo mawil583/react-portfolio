@@ -11,7 +11,7 @@
   padding-bottom: 5em;
 }
 .addPadding {
-  padding-top: 75px;
+  padding-top: 0px;
   padding-bottom: 60px;
 }
 
@@ -166,7 +166,7 @@
 
 @media only screen and (max-width: 540px) {
   .social-links a {
-    font-size: 2.4vw !important;
+    font-size: 2.3vw !important;
   }
   #home-avatar {
     width: 40% !important;
