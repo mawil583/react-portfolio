@@ -11,8 +11,8 @@
   padding-bottom: 5em;
 }
 .addPadding {
-  padding-top: 6em;
-  padding-bottom: 6em;
+  padding-top: 75px;
+  padding-bottom: 60px;
 }
 
 .aboutMeImage {
@@ -166,7 +166,7 @@
 
 @media only screen and (max-width: 540px) {
   .social-links a {
-    font-size: 2vw !important;
+    font-size: 2.4vw !important;
   }
   #home-avatar {
     width: 40% !important;
