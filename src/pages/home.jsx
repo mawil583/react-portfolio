@@ -23,7 +23,7 @@ class Home extends Component {
                                         Full Stack Web Developer
                     </h1>
                                     <hr />
-                                    <p>HTML5 | CSS3 | Bootstrap | JavaScript | jQuery | React | Node.js | Express | SQL | MongoDB</p>
+                                    <p>React | JavaScript | Bootstrap | Node.js | Express | jQuery | MongoDB | SQL | CSS3 | HTML5</p>
                                     <Container fluid>
                                         <Row>
                                             <div className="social-links">
@@ -65,12 +65,12 @@ class Home extends Component {
                                     <h2 id="centerMe">About Me</h2>
                                 </div>
                                 <p>Hello! My name is Michael and I am a chemist turned full-stack software engineer. I have always been drawn
-                                    towards technical areas of study. Even during my early high school years, when I was a bad student, I still
+                                    towards technical areas of study. Even during my early high school years, when I struggled at school, I still
                                     excelled in math and science. During my undergrad, philosophy of logic was one of my favorite classes. And
                                     now I found a discipline where I get to work with logic daily. It's a dream come true!
-                                </p>
-                                <p>Skills of mine include HTML5, CSS3, JavaScript (ES6), Command Terminal, Bootstrap, jQuery, Node.js/Express,
-                                    RESTful APIs, SQL/Sequelize, Mongo/Mongoose, React, and NPM packages.</p>
+                                </p> 
+                                <p>Skills of mine include React, React-Bootstrap, JavaScript (ES6), Mongo/Mongoose, SQL/Sequelize, Node.js/Express, RESTful APIs, 
+                                    Command Terminal, Bootstrap, jQuery, HTML5, and CSS3.</p>
                                 <p>This website was created from scratch using JavaScript, Node.js, Express, React, React-Bootstrap, Font-Awesome,
                                     Google Fonts and custom CSS. Because of Bootstrap's grid system, this site is fully responsive. Try it out!
                                     Resize your browser and the content will remain viewable.</p>
