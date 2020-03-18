@@ -19,7 +19,7 @@
   max-width: 100%;
   margin: auto;
   text-align: center; 
-  /* padding-top: 8em; */
+  padding-top: 70px;
   padding-bottom: 2em;
   border-radius: 25%;
   
@@ -166,7 +166,7 @@
 
 @media only screen and (max-width: 540px) {
   .social-links a {
-    font-size: 2.3vw !important;
+    font-size: 2.2vw!important;
   }
   #home-avatar {
     width: 40% !important;

@@ -52,7 +52,7 @@ class Home extends Component {
                 <div className="addPadding">
 
                     <Container>
-                        <Row className="d-flex flex-wrap align-items-center">
+                        <Row className="flex-wrap align-items-center">
 
                             <Col xl={4} lg={5} md={6} sm={12} className="pt-lg-5 pt-xl-3 pt-md-5 align-text-bottom" >
                                 <span className="align-bottom d-flex justify-content-center">
