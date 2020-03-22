@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/navbar/index';
@@ -9,11 +9,23 @@ import AboutMe from './pages/aboutMe';
 import Resume from './pages/resume';
 import Contact from './pages/contact';
 
-function App() {
-  return (
-    <div className="App">
+class App extends Component {
+  state = {
+    navClass: "ml-auto navLink"
+  }
+
+  // defaultNavClass= "ml-auto navLink"; 
+
+  // makeActive = () => {
+  //   this.setState({navClass: "ml-auto navLinkActive"})
+  // }
+
+  render () {
+
+    return (
+      <div className="App">
       <Router>
-        <Navbar />
+        <Navbar makeActive={this.makeActive} navClass={this.state.navClass} />
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/portfolio" component={Portfolio} />
@@ -24,7 +36,8 @@ function App() {
       </Router>
     </div>
 
-  );
+)
+}
 }
 
 export default App;

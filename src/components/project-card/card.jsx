@@ -10,7 +10,7 @@ const ProjectCard = (props) => {
                     {props.projectInfo.map(project => (
                         <Col xs={12} sm={12} md={6} lg={6} xl={4}>
 
-                            <Card className="shadow mt-3" key={project.projectTitle} >
+                            <Card className="shadow mt-3 mb-4" key={project.projectTitle} >
                                 <a rel="noopener noreferrer" target="_blank" href={project.deployedUrl}>
                                     <Card.Img variant="top" src={project.imageUrl} />
                                 </a>

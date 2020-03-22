@@ -15,6 +15,17 @@
   padding-bottom: 60px;
 }
 
+.navLink {
+  color: rgba(255,255,255, 0.7) !important;
+}
+.navLink:hover {
+  color: rgba(255,255,255, 0.85) !important;
+}
+
+.navLinkActive {
+  color: rgba(255,255,255, 1) !important
+}
+
 .aboutMeImage {
   max-width: 100%;
   margin: auto;
