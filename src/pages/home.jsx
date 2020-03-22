@@ -64,7 +64,7 @@ class Home extends Component {
                                     <h2 id="centerMe">About Me</h2>
                                 </div>
                                 <p>Hello! My name is Michael and I am a chemist turned full-stack software engineer. I have always been drawn
-                                    towards technical areas of study. Even during my early high school years, when I struggled at school, I still
+                                    towards technical areas of study. As far back as I can remember, I've always 
                                     excelled in math and science. During my undergrad, philosophy of logic was one of my favorite classes. And
                                     now I found a discipline where I get to work with logic daily. It's a dream come true!
                                 </p> 
