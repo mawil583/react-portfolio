@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Container, Row, Col, } from 'react-bootstrap';
-import Resume from '../assets/resume_full-stack.pdf';
 import LinkedInPhoto from '../assets/LinkedInPhoto.jpeg';
 
 class Home extends Component {
@@ -35,7 +34,7 @@ class Home extends Component {
                                                         <i className="fa fa-github-square fa-fw" aria-hidden="true" />
                                                     </a>
                                                 
-                                                    <a href={Resume} rel="noopener noreferrer" target="_blank">
+                                                    <a href="https://drive.google.com/open?id=1whG6WH0AgOyOM79xBv_nvpCgrFtFx-ic" rel="noopener noreferrer" target="_blank">
                                                         <i className="fa fa-external-link-square fa-fw" aria-hidden="true" />
                                                     </a>
                                                 </Col>
