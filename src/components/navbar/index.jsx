@@ -14,7 +14,7 @@ const NavBar = (props) => {
 
                 </Nav>
                 <Nav  className="ml-auto justify-content-end">
-                    // if props.state
+                   
                     <Nav.Link href='#' onClick={props.makeActive} className="ml-auto navLink" as={Link} to="/">Home</Nav.Link>
                     <Nav.Link href='#' onClick={props.makeActive} className="ml-auto navLink" as={Link} to="/Portfolio">Portfolio</Nav.Link>
                     <Nav.Link onClick={props.makeActive} className="ml-auto navLink" target="_blank" href="https://drive.google.com/open?id=1whG6WH0AgOyOM79xBv_nvpCgrFtFx-ic">Resume</Nav.Link>
