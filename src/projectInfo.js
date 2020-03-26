@@ -38,6 +38,16 @@ const projectInfo = [
         summary: `Train Scheduler allows users to view train information such as Destination, Frequency, Next Arrival Time, 
         and Minutes Away so that they can plan accordingly. Additionally, if someone wants to add a new train to the schedule, 
         he/she can do so easily.`
+    },
+    {
+        projectTitle: "Memory Game",
+        imageUrl: "./assets/memoryGame.png",
+        githubUrl: "https://github.com/mawil583/memory-game",
+        deployedUrl: "http://memory-game-uofa.herokuapp.com/",
+        technologies: ["React"],
+        summary: `This game will test your memory. The objective is to click every character only once. There are 12 characters, 
+        so this will be difficult. Your score goes up after every click. Once you've clicked all of them without any 
+        repeats, you win. But if you click one more than once, you lose!`
     }
 ];
 
